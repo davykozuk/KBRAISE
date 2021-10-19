@@ -16,6 +16,8 @@ $Xaml = @"
 #-------------------------------------------------------------#
 
 function Fcopy(){
+$Poste=$TPoste.Text
+$User=$TUser.Text
 Copy-Item -Path "\\cw01pnmtst00\IP\Domaines Clients\CR NMP\Drivers\ClavierSouris\DUR.ink" -Destination "\\$Poste\c$\users\$User\desktop\"}
 
 
